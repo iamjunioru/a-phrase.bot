@@ -22,3 +22,10 @@ def random_phrase():
   
     final_phrase = random.choice(p1)
     return final_phrase
+
+while True:
+    api.update_status(status=random_phrase().lower())
+    print('------------------------------------------')
+    print('tweet enviado com sucesso!')
+    print('------------------------------------------')
+    sleep(1500)
