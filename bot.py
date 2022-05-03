@@ -24,7 +24,7 @@ def random_phrase():
           "você é minha sanidade mesmo estando no meio de loucos.",
           "você é o meu céu que jamais nublou.",
           "você é meu inferno congelante.",
-          "minha motivação é não ter encontrado respostas p nada.",
+          "minha motivação é não ter encontrado respostas pra nada.",
           "ainda estou aqui tentando, todos os dias.",
           "mantenha um pouco de fé no seu coração e use para viver amanhã.",
           '"aqui é onde você precisa estar."',
@@ -57,6 +57,16 @@ def random_phrase():
           "suas lágrimas, um mar para eu nadar.",
           "isso é tudo que sempre fomos?",
           "não vá, você é metade de mim agora. :(",
+          "finding hope 2 a.m",
+          "tudo que somos está despencando pelo espaço numa queda interminável.",
+          "uma vida em repetição.",
+          "o que você não sabe pode te assustar.",
+          "seja honesto sobre seus sentimentos.",
+          "vamos sair daqui e viver como nos filmes.",
+          "cause i'm a fucking mess sometimes",
+          "morrendo lentamente.",
+          "eu não posso amar quando eu não consigo nem me amar.",
+          "my atlantis, we fall",
           ""]
   
     final_phrase = random.choice(p1)
