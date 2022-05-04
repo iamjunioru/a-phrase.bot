@@ -14,8 +14,10 @@ access_token = ''
 access_token_secret = ''
 
 # connect
-auth = tweepy.OAuthHandler(api_key, api_key_secret, access_token=access_token, access_token_secret=access_token_secret, callback=Response)
+auth = tweepy.OAuthHandler(api_key, api_key_secret, access_token=access_token,
+access_token_secret=access_token_secret, callback=Response)
 api = tweepy.API(auth)
+
 
 def random_phrase():
     p1 = ["posso voltar quantas vezes for preciso pra te mostrar que não há melhor lugar que o nosso mundo.",
@@ -68,9 +70,10 @@ def random_phrase():
           "eu não posso amar quando eu não consigo nem me amar.",
           "my atlantis, we fall",
           ""]
-  
+
     final_phrase = random.choice(p1)
     return final_phrase
+
 
 while True:
     api.update_status(status=random_phrase().lower())
