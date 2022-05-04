@@ -22,9 +22,8 @@ api = tweepy.API(auth)
 def random_phrase():
     p1 = ["posso voltar quantas vezes for preciso pra te mostrar que não há melhor lugar que o nosso mundo.",
           "eu te amo, ek is lief vir, me dor wo, i love you, ti je zemra ime , gosto de ti, ich hoan dich gear, afekrishalehou, :..:| ..:| |..-.. .::”:.., :.:;, aishiteru, je t’adore, wo ie ni, mi amas vin, je t’aime, te ljubam,Tom ho’ichema… e enfim, eu te amo em todas as linguas.",
-          "você é minha cura em meio a toda melancolia.",
-          "você é minha sanidade mesmo estando no meio de loucos.",
-          "você é o meu céu que jamais nublou.",
+          "ela é minha cura em meio a toda melancolia.",
+          "ela é o meu céu que jamais nublou.",
           "você é meu inferno congelante.",
           "minha motivação é não ter encontrado respostas pra nada.",
           "ainda estou aqui tentando, todos os dias.",
@@ -69,6 +68,11 @@ def random_phrase():
           "morrendo lentamente.",
           "eu não posso amar quando eu não consigo nem me amar.",
           "my atlantis, we fall",
+          "eu te amei como Van Gogh amou as estrelas e você me amou como ele amou a vida.",
+          "eden - death of a dream - https://youtu.be/TwsZidGLzWY",
+          "novo amor - anchor - https://youtu.be/Ajsgx9yDY-0",
+          "in another life i would make you stay...",
+          "amei você no seu pior momento...",
           ""]
 
     final_phrase = random.choice(p1)
