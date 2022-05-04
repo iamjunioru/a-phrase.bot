@@ -73,7 +73,7 @@ def random_phrase():
           "novo amor - anchor - https://youtu.be/Ajsgx9yDY-0",
           "in another life i would make you stay...",
           "amei você no seu pior momento...",
-          ""]
+          "aaaaaaa."]
 
     final_phrase = random.choice(p1)
     return final_phrase
