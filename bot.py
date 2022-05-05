@@ -31,8 +31,8 @@ def random_phrase():
           '"aqui é onde você precisa estar."',
           "e quem disse que você é um em um milhão? você é bem melhor que isso.",
           "eu queria que você fosse a última coisa na minha mente.",
-          "queria que você fosse a razão de fechar meus olhos.",
-          "became my downfall",
+          "queria que você fosse a razão de eu fechar meus olhos.",
+          "became my downfall-",
           "eu estarei bem se você nunca me perguntar.",
           "cair é facil, mas só há um caminho para cima.",
           "você pode ir se realmente quiser.",
@@ -73,7 +73,11 @@ def random_phrase():
           "novo amor - anchor - https://youtu.be/Ajsgx9yDY-0",
           "in another life i would make you stay...",
           "amei você no seu pior momento...",
-          "aaaaaaa."]
+          "talvez noutra vida ou na próxima vida, seríamos finalmente eu e você. talvez o universo nos desse outra chance.",
+          "você não fazia parte do plano.",
+          "aquilo que te faz diferente é o que te torna especial.",
+          "e se o felizes para sempre existisse?",
+          "e um dia você poderá me encontrar onde o mar se derrama nas estrelas."]
 
     final_phrase = random.choice(p1)
     return final_phrase
