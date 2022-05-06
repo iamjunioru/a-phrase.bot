@@ -77,7 +77,11 @@ def random_phrase():
           "você não fazia parte do plano.",
           "aquilo que te faz diferente é o que te torna especial.",
           "e se o felizes para sempre existisse?",
-          "e um dia você poderá me encontrar onde o mar se derrama nas estrelas."]
+          "e um dia você poderá me encontrar onde o mar se derrama nas estrelas.",
+          "eu ficarei bem se você ficar.",
+          "a vida não é nada além de um sonho.",
+          "stargazing",
+          "como faz pra voltar no tempo?"]
 
     final_phrase = random.choice(p1)
     return final_phrase
