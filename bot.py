@@ -81,7 +81,8 @@ def random_phrase():
           "eu ficarei bem se você ficar.",
           "a vida não é nada além de um sonho.",
           "stargazing",
-          "como faz pra voltar no tempo?"]
+          "como faz pra voltar no tempo?",
+          "simplesmente ela."]
 
     final_phrase = random.choice(p1)
     return final_phrase
