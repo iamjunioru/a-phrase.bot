@@ -82,7 +82,8 @@ def random_phrase():
           "a vida não é nada além de um sonho.",
           "stargazing",
           "como faz pra voltar no tempo?",
-          "simplesmente ela."]
+          "simplesmente ela.",
+          "tu te tornas eternamente responsável por aquilo que cativas."]
 
     final_phrase = random.choice(p1)
     return final_phrase
