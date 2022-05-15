@@ -83,7 +83,15 @@ def random_phrase():
           "stargazing",
           "como faz pra voltar no tempo?",
           "simplesmente ela.",
-          "tu te tornas eternamente responsável por aquilo que cativas."]
+          "tu te tornas eternamente responsável por aquilo que cativas.",
+          "Imagine ser o suficiente para alguém.",
+          "falling in love is painful.",
+          "me compre comida e eu vou te amar para sempre.",
+          "50% idk 50% idc.",
+          "guarde seus sentimentos para alguém que realmente se importa com você.",
+          "você disse que estaria lá por mim. mas onde está você agora?",
+          "reza a lenda que conversas tarde da noite com amigos podem ser uma das melhores terapias.",
+          "me abraça pfv........."]
 
     final_phrase = random.choice(p1)
     return final_phrase
