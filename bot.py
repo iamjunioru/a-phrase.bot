@@ -91,7 +91,8 @@ def random_phrase():
           "guarde seus sentimentos para alguém que realmente se importa com você.",
           "você disse que estaria lá por mim. mas onde está você agora?",
           "reza a lenda que conversas tarde da noite com amigos podem ser uma das melhores terapias.",
-          "me abraça pfv........."]
+          "me abraça pfv.........",
+          ""]
 
     final_phrase = random.choice(p1)
     return final_phrase
@@ -100,6 +101,16 @@ def random_phrase():
 while True:
     api.update_status(status=random_phrase().lower())
     print('------------------------------------------')
-    print('tweet enviado com sucesso!')
+    print('1. tweet enviado com sucesso!')
     print('------------------------------------------')
-    sleep(1500)
+    sleep(100500) # 28h
+    api.update_status(status=random_phrase().lower())
+    print('------------------------------------------')
+    print('2. tweet enviado com sucesso!')
+    print('------------------------------------------')
+    sleep(80000) # 22h
+    api.update_status(status=random_phrase().lower())
+    print('------------------------------------------')
+    print('2. tweet enviado com sucesso!')
+    print('------------------------------------------')
+    sleep(150000) # 41h
