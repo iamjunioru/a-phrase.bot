@@ -92,7 +92,7 @@ def random_phrase():
           "você disse que estaria lá por mim. mas onde está você agora?",
           "reza a lenda que conversas tarde da noite com amigos podem ser uma das melhores terapias.",
           "me abraça pfv.........",
-          ""]
+          "apenas algo que me faça lembrar do que esqueci."]
 
     final_phrase = random.choice(p1)
     return final_phrase
