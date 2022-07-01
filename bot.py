@@ -92,7 +92,12 @@ def random_phrase():
           "você disse que estaria lá por mim. mas onde está você agora?",
           "reza a lenda que conversas tarde da noite com amigos podem ser uma das melhores terapias.",
           "me abraça pfv.........",
-          "apenas algo que me faça lembrar do que esqueci."]
+          "apenas algo que me faça lembrar do que esqueci.",
+          "há lugares incríveis mesmo em tempos sombrios e se não houver, você pode ser aquele lugar, com infinitas capacidades.",
+          "desde que você chegou minhas borboletas pararam de voar e agora elas dançam.",
+          "e a convicção de que mágoas e tristezas que parecem eternas não duram para sempre.",
+          "why would you ever kiss me?",
+          "why not me?",]
 
     final_phrase = random.choice(p1)
     return final_phrase
