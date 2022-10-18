@@ -97,7 +97,11 @@ def random_phrase():
           "desde que você chegou minhas borboletas pararam de voar e agora elas dançam.",
           "e a convicção de que mágoas e tristezas que parecem eternas não duram para sempre.",
           "why would you ever kiss me?",
-          "why not me?",]
+          "why not me?",
+          "me + you = <3",
+          "cânticos 4:7",
+          "no one, no one.",
+          ""]
 
     final_phrase = random.choice(p1)
     return final_phrase
