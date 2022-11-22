@@ -101,7 +101,12 @@ def random_phrase():
           "me + you = <3",
           "cânticos 4:7",
           "no one, no one.",
-          ""]
+          "se tu me cativas, precisaremos um do outro, você será para mim o único no mundo.",
+          "engraçado que existem bilhões de galáxias, eu não sei a dimensão desse número. mas eu fico feliz por ter encontrado vocês no mesmo lugar.",
+          "desisto de você, mas ainda torço por nós dois.",
+          "a minhã mão longe da tua mão segue orbitando o nada na vasta solidão.",
+          "toda poesia do mundo não te definiria.",
+          "tantas estrelas no céu e eu fui me apaixonar por uma cadentekkkk."]
 
     final_phrase = random.choice(p1)
     return final_phrase
